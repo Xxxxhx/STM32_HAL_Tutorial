@@ -4,7 +4,7 @@ It is a simple guide of using the 2.8 inch ALIENTEK LCD module, with the resolut
 
 
 
-1. Find **lcd.c, lcd.h and font.h** from  [./LCD Module.assets](./LCD%Module.assets)
+1. Find **lcd.c, lcd.h and font.h** from  [LCD Module.assets](./LCD%20Module.assets)
 
 
 2. Add them in your STM32Cube project. Source files should be in **Src** folder, while header files should be in **Inc** folder.  

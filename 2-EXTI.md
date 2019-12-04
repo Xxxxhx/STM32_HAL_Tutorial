@@ -187,7 +187,7 @@ Compile and programs it into the MCU.
 
 ## Programming without ST-Link/J-Link
 
-The only way to program the binary file into the MCU in STM32CubeIDE is using debug, which needs ST-Link/J-Link. If you don’t have ST-Link/J-Link, you can use .hex file and program it into the MCU by USART. 
+The only way to program the binary file into the MCU in STM32CubeIDE is using debug, which needs ST-Link/J-Link. If you don't have ST-Link/J-Link, you can use .hex file and program it into the MCU by USART. 
 
 ![1570802901682](EXTI.assets/1570802901682.png)
 
@@ -195,7 +195,7 @@ The only way to program the binary file into the MCU in STM32CubeIDE is using de
 
 ![1570803118888](EXTI.assets/1570803118888.png)
 
-- Open **FlyMcu**, configure the software as the figure shows, and click **Start ISP(P)** to program the .hex file into the MCU
+- Open [FlyMcu.exe](./FlyMcu.exe), configure the software as the figure shows, and click **Start ISP(P)** to program the .hex file into the MCU
 
 
 ## Assignment
