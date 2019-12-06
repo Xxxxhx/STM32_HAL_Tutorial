@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Interrupts are input signals to trigger an event that needs handled immediately. When there are interrupts coming, current works should be pause to execute some critical code, which is called interrupt handler or interrupt service routine(ISR), and back to the code where it is paused if the ISR is done. So, interrupts can be used to handle some unexpected moment or task that does not require much execution time. As for external interrupts(EXTI), which is triggered by outside interference, like peripherals. They are different from internal interrupts which is generated automatically by CPU itself.
+Interrupts are input signals to trigger an event that needs handled immediately. When there are interrupts coming, current works should be pause to execute some critical code, which is called interrupt handler or interrupt service routine(ISR), and back to the code where it is paused if the ISR is done. So, interrupts can be used to handle some unexpected moment or task that does not require much execution time. As for external interrupts(EXTI), it is triggered by outside interference, like peripherals. They are different from internal interrupts which is generated automatically by CPU itself.
 
 There are 20 external interrupt lines in STM32F103RCTx. All the GPIOs are connected to the 16 external interrupt lines in the following manner:
 
@@ -57,7 +57,7 @@ There are two kinds of priority in STM32: preemption priority and sub priority. 
 
 ### API
 
-Through there are 16 EXTI lines, only EXTI 0~4 has its own interrupt function, while EXTI 5~9 share ``EXTI9_5_IRQHandler`` and EXTI 10~15 share ``EXTI15_10_IRQHandler``.
+Through there are 16 EXTI lines, only EXTI 0-4 has its own interrupt function, while EXTI 5-9 share ``EXTI9_5_IRQHandler`` and EXTI 10~15 share ``EXTI15_10_IRQHandler``.
 
 ```c
 void EXTI0_IRQHandler();
