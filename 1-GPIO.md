@@ -119,7 +119,7 @@ On the ALIENTEK MiniSTM32 board, use **KEY0** and **KEY1** to control two LED **
 
 ![1570355331542](GPIO.assets/1570355331542.png)
 
-- Find the pins connected to **KEY0**, **KEY1**, **DS0** and **DS1**, which is **PC5**, **PA15**, **PA8** and **PD2**
+- Find the pins connected to **KEY0**, **KEY1**, **DS0** and **DS1**, which are **PC5**, **PA15**, **PA8** and **PD2**
 
 ![1570357499046](GPIO.assets/1570357499046.png)
 
