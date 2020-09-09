@@ -1,7 +1,7 @@
 # General-purpose Input/Output
 
 General-purpose input/output(GPIO) is the simplest I/O. Each GPIO port has four 32-bit configuration registers (GPIOx_MODER, GPIOx_OTYPER, GPIOx_OSPEEDR and GPIOx_PUPDR), two 32-bit data registers
-(GPIOx_IDR and GPIOx_ODR), a 32-bit set/reset register (GPIOx_BSRR), a 32-bit locking register (GPIOx_LCKR) and two 32-bit alternate function selection register (GPIOx_AFRH and GPIOx_AFRL). Directly modify the value of register is complicated, so HAL library has define micro and function for us. More over, STM32CubeIDE provide us a more intuitive way to configure each GPIO port. Usage of register in GPIO is not introduced here, check the reference manual of STM32 F1 series for detail.
+(GPIOx_IDR and GPIOx_ODR), a 32-bit set/reset register (GPIOx_BSRR), a 32-bit locking register (GPIOx_LCKR) and two 32-bit alternate function selection register (GPIOx_AFRH and GPIOx_AFRL). Directly modify the value of register is complicated, so HAL library has define micro and function for us. More over, STM32CubeIDE provides us a more intuitive way to configure each GPIO port. Usage of register in GPIO is not introduced here, check the reference manual of STM32 F1 series for detail.
 
 ## GPIO Function Description
 
