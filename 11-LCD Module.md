@@ -109,7 +109,7 @@ It is a simple guide of using the 2.8 inch ALIENTEK LCD module, with the resolut
 
 ## API
 
-Following is some functions used frequently:
+Following are some functions used frequently:
 
 ```c
 void LCD_Clear(uint16_t Color); // Clear the screen with specific color
