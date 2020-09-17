@@ -78,7 +78,6 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -90,18 +89,9 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	HAL_Delay(1000);
-    /*
-    if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_8) == GPIO_PIN_RESET) {
-      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
-      HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);
-    } else {
-      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_RESET);
-      HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);
-    }
-    */
-    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN8);
-    HAL_GPIO_TogglePin(GPIOD, GPIO_PIN2);
+    HAL_Delay(1000);
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_8);
+    HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_2);
   }
   /* USER CODE END 3 */
 }
