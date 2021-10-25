@@ -10,7 +10,7 @@ Active the IWDG and set the prescaler and reload value.
 
 **T_out = presaler * reload / freq**
 
-The freq of STM32RCT6 LSI is 40Hz
+The freq of STM32RCT6 LSI is 40KHz
 
 ![1573528321150](Watchdog.assets/1573528321150.png)
 
